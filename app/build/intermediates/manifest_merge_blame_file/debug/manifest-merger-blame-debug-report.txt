@@ -1,0 +1,181 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.registrationapps"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->G:\New_Format_2020\Code\xampp\htdocs\Android Studio\Kelompok_2 - BC11 - ISYS6203\DotaMarketplace - By Hendy\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->G:\New_Format_2020\Code\xampp\htdocs\Android Studio\Kelompok_2 - BC11 - ISYS6203\DotaMarketplace - By Hendy\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->G:\New_Format_2020\Code\xampp\htdocs\Android Studio\Kelompok_2 - BC11 - ISYS6203\DotaMarketplace - By Hendy\app\src\main\AndroidManifest.xml:5:5-79
+11-->G:\New_Format_2020\Code\xampp\htdocs\Android Studio\Kelompok_2 - BC11 - ISYS6203\DotaMarketplace - By Hendy\app\src\main\AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->G:\New_Format_2020\Code\xampp\htdocs\Android Studio\Kelompok_2 - BC11 - ISYS6203\DotaMarketplace - By Hendy\app\src\main\AndroidManifest.xml:6:5-81
+12-->G:\New_Format_2020\Code\xampp\htdocs\Android Studio\Kelompok_2 - BC11 - ISYS6203\DotaMarketplace - By Hendy\app\src\main\AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->G:\New_Format_2020\Code\xampp\htdocs\Android Studio\Kelompok_2 - BC11 - ISYS6203\DotaMarketplace - By Hendy\app\src\main\AndroidManifest.xml:7:5-67
+13-->G:\New_Format_2020\Code\xampp\htdocs\Android Studio\Kelompok_2 - BC11 - ISYS6203\DotaMarketplace - By Hendy\app\src\main\AndroidManifest.xml:7:22-64
+14    <uses-permission android:name="android.permission.SEND_SMS" />
+14-->G:\New_Format_2020\Code\xampp\htdocs\Android Studio\Kelompok_2 - BC11 - ISYS6203\DotaMarketplace - By Hendy\app\src\main\AndroidManifest.xml:9:5-66
+14-->G:\New_Format_2020\Code\xampp\htdocs\Android Studio\Kelompok_2 - BC11 - ISYS6203\DotaMarketplace - By Hendy\app\src\main\AndroidManifest.xml:9:22-64
+15    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+15-->G:\New_Format_2020\Code\xampp\htdocs\Android Studio\Kelompok_2 - BC11 - ISYS6203\DotaMarketplace - By Hendy\app\src\main\AndroidManifest.xml:10:5-69
+15-->G:\New_Format_2020\Code\xampp\htdocs\Android Studio\Kelompok_2 - BC11 - ISYS6203\DotaMarketplace - By Hendy\app\src\main\AndroidManifest.xml:10:22-67
+16
+17    <!-- Include required permissions for Google Maps API to run. -->
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\hendy\.gradle\caches\transforms-2\files-2.1\ffaedc374c9e7ae45dbc90d51ad0732f\jetified-play-services-maps-16.1.0\AndroidManifest.xml:23:5-79
+18-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\hendy\.gradle\caches\transforms-2\files-2.1\ffaedc374c9e7ae45dbc90d51ad0732f\jetified-play-services-maps-16.1.0\AndroidManifest.xml:23:22-76
+19
+20    <uses-feature
+20-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\hendy\.gradle\caches\transforms-2\files-2.1\ffaedc374c9e7ae45dbc90d51ad0732f\jetified-play-services-maps-16.1.0\AndroidManifest.xml:26:5-28:35
+21        android:glEsVersion="0x00020000"
+21-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\hendy\.gradle\caches\transforms-2\files-2.1\ffaedc374c9e7ae45dbc90d51ad0732f\jetified-play-services-maps-16.1.0\AndroidManifest.xml:27:9-41
+22        android:required="true" />
+22-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\hendy\.gradle\caches\transforms-2\files-2.1\ffaedc374c9e7ae45dbc90d51ad0732f\jetified-play-services-maps-16.1.0\AndroidManifest.xml:28:9-32
+23
+24    <application
+24-->G:\New_Format_2020\Code\xampp\htdocs\Android Studio\Kelompok_2 - BC11 - ISYS6203\DotaMarketplace - By Hendy\app\src\main\AndroidManifest.xml:12:5-86:19
+25        android:allowBackup="true"
+25-->G:\New_Format_2020\Code\xampp\htdocs\Android Studio\Kelompok_2 - BC11 - ISYS6203\DotaMarketplace - By Hendy\app\src\main\AndroidManifest.xml:13:9-35
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.3.1] C:\Users\hendy\.gradle\caches\transforms-2\files-2.1\ae3468b444d41a56f261ecbb8448fe17\core-1.3.1\AndroidManifest.xml:24:18-86
+27        android:debuggable="true"
+28        android:extractNativeLibs="false"
+29        android:hardwareAccelerated="false"
+29-->G:\New_Format_2020\Code\xampp\htdocs\Android Studio\Kelompok_2 - BC11 - ISYS6203\DotaMarketplace - By Hendy\app\src\main\AndroidManifest.xml:14:9-44
+30        android:icon="@mipmap/ic_launcher"
+30-->G:\New_Format_2020\Code\xampp\htdocs\Android Studio\Kelompok_2 - BC11 - ISYS6203\DotaMarketplace - By Hendy\app\src\main\AndroidManifest.xml:16:9-43
+31        android:label="@string/app_name"
+31-->G:\New_Format_2020\Code\xampp\htdocs\Android Studio\Kelompok_2 - BC11 - ISYS6203\DotaMarketplace - By Hendy\app\src\main\AndroidManifest.xml:17:9-41
+32        android:largeHeap="true"
+32-->G:\New_Format_2020\Code\xampp\htdocs\Android Studio\Kelompok_2 - BC11 - ISYS6203\DotaMarketplace - By Hendy\app\src\main\AndroidManifest.xml:15:9-33
+33        android:roundIcon="@mipmap/ic_launcher_round"
+33-->G:\New_Format_2020\Code\xampp\htdocs\Android Studio\Kelompok_2 - BC11 - ISYS6203\DotaMarketplace - By Hendy\app\src\main\AndroidManifest.xml:18:9-54
+34        android:supportsRtl="true"
+34-->G:\New_Format_2020\Code\xampp\htdocs\Android Studio\Kelompok_2 - BC11 - ISYS6203\DotaMarketplace - By Hendy\app\src\main\AndroidManifest.xml:19:9-35
+35        android:testOnly="true"
+36        android:theme="@style/AppTheme" >
+36-->G:\New_Format_2020\Code\xampp\htdocs\Android Studio\Kelompok_2 - BC11 - ISYS6203\DotaMarketplace - By Hendy\app\src\main\AndroidManifest.xml:20:9-40
+37        <meta-data
+37-->G:\New_Format_2020\Code\xampp\htdocs\Android Studio\Kelompok_2 - BC11 - ISYS6203\DotaMarketplace - By Hendy\app\src\main\AndroidManifest.xml:23:9-111
+38            android:name="com.google.android.geo.API_KEY"
+38-->G:\New_Format_2020\Code\xampp\htdocs\Android Studio\Kelompok_2 - BC11 - ISYS6203\DotaMarketplace - By Hendy\app\src\main\AndroidManifest.xml:23:20-65
+39            android:value="@string/google_maps_api_key" />
+39-->G:\New_Format_2020\Code\xampp\htdocs\Android Studio\Kelompok_2 - BC11 - ISYS6203\DotaMarketplace - By Hendy\app\src\main\AndroidManifest.xml:23:66-109
+40
+41        <!-- Database -->
+42        <activity android:name="com.example.DotaMarketPlace.Database.DisplayDatabase" >
+42-->G:\New_Format_2020\Code\xampp\htdocs\Android Studio\Kelompok_2 - BC11 - ISYS6203\DotaMarketplace - By Hendy\app\src\main\AndroidManifest.xml:26:9-28:20
+42-->G:\New_Format_2020\Code\xampp\htdocs\Android Studio\Kelompok_2 - BC11 - ISYS6203\DotaMarketplace - By Hendy\app\src\main\AndroidManifest.xml:26:19-59
+43        </activity>
+44
+45        <!-- History Form -->
+46        <activity
+46-->G:\New_Format_2020\Code\xampp\htdocs\Android Studio\Kelompok_2 - BC11 - ISYS6203\DotaMarketplace - By Hendy\app\src\main\AndroidManifest.xml:31:9-36:20
+47            android:name="com.example.DotaMarketPlace.History"
+47-->G:\New_Format_2020\Code\xampp\htdocs\Android Studio\Kelompok_2 - BC11 - ISYS6203\DotaMarketplace - By Hendy\app\src\main\AndroidManifest.xml:32:13-36
+48            android:parentActivityName="com.example.DotaMarketPlace.Kontroller.MenuForm" >
+48-->G:\New_Format_2020\Code\xampp\htdocs\Android Studio\Kelompok_2 - BC11 - ISYS6203\DotaMarketplace - By Hendy\app\src\main\AndroidManifest.xml:33:13-62
+49        </activity>
+50
+51        <!-- MenuForm | Top up form -->
+52        <activity
+52-->G:\New_Format_2020\Code\xampp\htdocs\Android Studio\Kelompok_2 - BC11 - ISYS6203\DotaMarketplace - By Hendy\app\src\main\AndroidManifest.xml:39:9-44:20
+53            android:name="com.example.DotaMarketPlace.topUpForm"
+53-->G:\New_Format_2020\Code\xampp\htdocs\Android Studio\Kelompok_2 - BC11 - ISYS6203\DotaMarketplace - By Hendy\app\src\main\AndroidManifest.xml:40:13-38
+54            android:parentActivityName="com.example.DotaMarketPlace.Kontroller.MenuForm" >
+54-->G:\New_Format_2020\Code\xampp\htdocs\Android Studio\Kelompok_2 - BC11 - ISYS6203\DotaMarketplace - By Hendy\app\src\main\AndroidManifest.xml:41:13-62
+55        </activity>
+56
+57        <!-- MenuForm | Seller Location -->
+58        <activity
+58-->G:\New_Format_2020\Code\xampp\htdocs\Android Studio\Kelompok_2 - BC11 - ISYS6203\DotaMarketplace - By Hendy\app\src\main\AndroidManifest.xml:47:9-52:20
+59            android:name="com.example.DotaMarketPlace.SellerLocation"
+59-->G:\New_Format_2020\Code\xampp\htdocs\Android Studio\Kelompok_2 - BC11 - ISYS6203\DotaMarketplace - By Hendy\app\src\main\AndroidManifest.xml:48:13-43
+60            android:parentActivityName="com.example.DotaMarketPlace.buyItem" >
+60-->G:\New_Format_2020\Code\xampp\htdocs\Android Studio\Kelompok_2 - BC11 - ISYS6203\DotaMarketplace - By Hendy\app\src\main\AndroidManifest.xml:49:13-50
+61        </activity>
+62
+63        <!-- MenuForm | Buy item -->
+64        <activity
+64-->G:\New_Format_2020\Code\xampp\htdocs\Android Studio\Kelompok_2 - BC11 - ISYS6203\DotaMarketplace - By Hendy\app\src\main\AndroidManifest.xml:55:9-61:20
+65            android:name="com.example.DotaMarketPlace.buyItem"
+65-->G:\New_Format_2020\Code\xampp\htdocs\Android Studio\Kelompok_2 - BC11 - ISYS6203\DotaMarketplace - By Hendy\app\src\main\AndroidManifest.xml:56:13-36
+66            android:parentActivityName="com.example.DotaMarketPlace.Kontroller.MenuForm"
+66-->G:\New_Format_2020\Code\xampp\htdocs\Android Studio\Kelompok_2 - BC11 - ISYS6203\DotaMarketplace - By Hendy\app\src\main\AndroidManifest.xml:57:13-62
+67            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" >
+67-->G:\New_Format_2020\Code\xampp\htdocs\Android Studio\Kelompok_2 - BC11 - ISYS6203\DotaMarketplace - By Hendy\app\src\main\AndroidManifest.xml:58:13-72
+68        </activity>
+69
+70        <!-- Menu Form -->
+71        <activity android:name="com.example.DotaMarketPlace.Kontroller.MenuForm" >
+71-->G:\New_Format_2020\Code\xampp\htdocs\Android Studio\Kelompok_2 - BC11 - ISYS6203\DotaMarketplace - By Hendy\app\src\main\AndroidManifest.xml:64:9-66:20
+71-->G:\New_Format_2020\Code\xampp\htdocs\Android Studio\Kelompok_2 - BC11 - ISYS6203\DotaMarketplace - By Hendy\app\src\main\AndroidManifest.xml:64:19-54
+72        </activity>
+73
+74        <!-- Register -->
+75        <activity android:name="com.example.DotaMarketPlace.Register" >
+75-->G:\New_Format_2020\Code\xampp\htdocs\Android Studio\Kelompok_2 - BC11 - ISYS6203\DotaMarketplace - By Hendy\app\src\main\AndroidManifest.xml:69:9-71:20
+75-->G:\New_Format_2020\Code\xampp\htdocs\Android Studio\Kelompok_2 - BC11 - ISYS6203\DotaMarketplace - By Hendy\app\src\main\AndroidManifest.xml:69:19-43
+76        </activity>
+77
+78        <!-- Login -->
+79        <activity
+79-->G:\New_Format_2020\Code\xampp\htdocs\Android Studio\Kelompok_2 - BC11 - ISYS6203\DotaMarketplace - By Hendy\app\src\main\AndroidManifest.xml:74:9-85:20
+80            android:name="com.example.DotaMarketPlace.MainActivity"
+80-->G:\New_Format_2020\Code\xampp\htdocs\Android Studio\Kelompok_2 - BC11 - ISYS6203\DotaMarketplace - By Hendy\app\src\main\AndroidManifest.xml:75:13-41
+81            android:label="@string/app_name"
+81-->G:\New_Format_2020\Code\xampp\htdocs\Android Studio\Kelompok_2 - BC11 - ISYS6203\DotaMarketplace - By Hendy\app\src\main\AndroidManifest.xml:76:13-45
+82            android:theme="@style/AppTheme.NoActionBar" >
+82-->G:\New_Format_2020\Code\xampp\htdocs\Android Studio\Kelompok_2 - BC11 - ISYS6203\DotaMarketplace - By Hendy\app\src\main\AndroidManifest.xml:77:13-56
+83            <intent-filter>
+83-->G:\New_Format_2020\Code\xampp\htdocs\Android Studio\Kelompok_2 - BC11 - ISYS6203\DotaMarketplace - By Hendy\app\src\main\AndroidManifest.xml:79:13-83:29
+84                <action android:name="android.intent.action.MAIN" />
+84-->G:\New_Format_2020\Code\xampp\htdocs\Android Studio\Kelompok_2 - BC11 - ISYS6203\DotaMarketplace - By Hendy\app\src\main\AndroidManifest.xml:80:17-69
+84-->G:\New_Format_2020\Code\xampp\htdocs\Android Studio\Kelompok_2 - BC11 - ISYS6203\DotaMarketplace - By Hendy\app\src\main\AndroidManifest.xml:80:25-66
+85
+86                <category android:name="android.intent.category.LAUNCHER" />
+86-->G:\New_Format_2020\Code\xampp\htdocs\Android Studio\Kelompok_2 - BC11 - ISYS6203\DotaMarketplace - By Hendy\app\src\main\AndroidManifest.xml:82:17-77
+86-->G:\New_Format_2020\Code\xampp\htdocs\Android Studio\Kelompok_2 - BC11 - ISYS6203\DotaMarketplace - By Hendy\app\src\main\AndroidManifest.xml:82:27-74
+87            </intent-filter>
+88        </activity>
+89        <!-- Needs to be explicitly declared on P+ -->
+90        <uses-library
+90-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\hendy\.gradle\caches\transforms-2\files-2.1\ffaedc374c9e7ae45dbc90d51ad0732f\jetified-play-services-maps-16.1.0\AndroidManifest.xml:33:9-35:40
+91            android:name="org.apache.http.legacy"
+91-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\hendy\.gradle\caches\transforms-2\files-2.1\ffaedc374c9e7ae45dbc90d51ad0732f\jetified-play-services-maps-16.1.0\AndroidManifest.xml:34:13-50
+92            android:required="false" />
+92-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\hendy\.gradle\caches\transforms-2\files-2.1\ffaedc374c9e7ae45dbc90d51ad0732f\jetified-play-services-maps-16.1.0\AndroidManifest.xml:35:13-37
+93
+94        <provider
+94-->[com.squareup.picasso:picasso:2.71828] C:\Users\hendy\.gradle\caches\transforms-2\files-2.1\8c52334ad0ec5779e7bf26a77e3e7fed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+95            android:name="com.squareup.picasso.PicassoProvider"
+95-->[com.squareup.picasso:picasso:2.71828] C:\Users\hendy\.gradle\caches\transforms-2\files-2.1\8c52334ad0ec5779e7bf26a77e3e7fed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+96            android:authorities="com.example.registrationapps.com.squareup.picasso"
+96-->[com.squareup.picasso:picasso:2.71828] C:\Users\hendy\.gradle\caches\transforms-2\files-2.1\8c52334ad0ec5779e7bf26a77e3e7fed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+97            android:exported="false" />
+97-->[com.squareup.picasso:picasso:2.71828] C:\Users\hendy\.gradle\caches\transforms-2\files-2.1\8c52334ad0ec5779e7bf26a77e3e7fed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+98
+99        <activity
+99-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\hendy\.gradle\caches\transforms-2\files-2.1\3f83d517f61136e16d044bce9cb41a17\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+100            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+100-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\hendy\.gradle\caches\transforms-2\files-2.1\3f83d517f61136e16d044bce9cb41a17\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+101            android:exported="false"
+101-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\hendy\.gradle\caches\transforms-2\files-2.1\3f83d517f61136e16d044bce9cb41a17\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+102            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+102-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\hendy\.gradle\caches\transforms-2\files-2.1\3f83d517f61136e16d044bce9cb41a17\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+103
+104        <meta-data
+104-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\hendy\.gradle\caches\transforms-2\files-2.1\b86b5869df97eccb8d53087384816790\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+105            android:name="com.google.android.gms.version"
+105-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\hendy\.gradle\caches\transforms-2\files-2.1\b86b5869df97eccb8d53087384816790\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+106            android:value="@integer/google_play_services_version" />
+106-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\hendy\.gradle\caches\transforms-2\files-2.1\b86b5869df97eccb8d53087384816790\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+107    </application>
+108
+109</manifest>
